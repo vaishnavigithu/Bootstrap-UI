@@ -1,0 +1,279 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400;1,500&display=swap');
+
+*{
+    margin: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navigation{
+   /*background-color: white;*/
+   height:70px;
+   /*width: 100%;*/
+   z-index: 1;
+   display: flex;
+   padding: 5px 15px;
+   justify-content: space-between;
+   align-items: center;
+   box-shadow: 0px 0px 5px 2px gray;
+}
+.navigation ul li{
+     list-style: none;
+     display: inline-block;
+     margin-left: 20px;
+}
+.navigation button{
+    background-color:rgb(201, 187, 187);
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+}
+.navigation .button:hover{
+    background-color: aqua;
+}
+
+.section-1{
+    height: 80vh;
+    background: url('https://duttrohan0302.github.io/accio-batch11/dec16th_bootstrap_UI/images/image2.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*opacity: 0.8;*/
+
+}
+.btn-bg-major{
+    background-color: #000;
+    color: #fff;
+}
+.btn-bg-minor{
+    background-color:bisque;
+}
+.section-1 .banner{
+    display: flex;
+    flex-direction: column;
+}
+.section-1  .banner  h1{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.section-1 .banner p{
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.section-1 .banner .banner-button{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     gap: 10px;
+}
+.section-1 .banner button{
+    padding: 10px 15px 10px 15px;
+    border-radius: 4px;
+    border: none;
+}
+.section-2{
+    height: 80vh;
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-2 h1{
+    font-size: 50px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+}
+.section-2 >p{
+    margin-top: 20px;
+    font-size: 20px;
+    color: #000;
+    justify-content: center;
+    text-align: center;
+}
+.section-2 .section-2-cards {
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+.section-2 .section-2-cards .card {
+    width: 300px;
+    border-radius: 12px;
+    border: 1px solid #e9bbbb;
+}
+.section-2 .section-2-cards .card img{
+    width: 100%;
+    border-radius: 14px 14px 0 0;
+}
+.section-2 .section-2-cards .card .card-body {
+    padding: 5px 10px;
+}
+.section-3{
+    height: 80vh;
+    background: url(https://duttrohan0302.github.io/accio-batch11/dec16th_bootstrap_UI/images/image3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-3 h1{
+    font-size: 50px;
+    color: whitesmoke;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+.section-3 p{
+    margin-top: 20px;
+    font-size: 20px;
+    color:whitesmoke;
+    text-align: center;
+}
+.section-3{
+    display: flex;
+    flex-direction:column;
+}
+.section-3 button{
+    background-color: red;
+    margin-top: 20px;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+.section-4{
+    height: 60vh;
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-4 .section-4-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    
+}
+
+.section-4 .section-4-card {
+    margin-top: 30px;
+    width: 300px;
+    display: flex;
+    gap: 10px;
+}
+
+.section-4 .section-4-card svg{
+    width: 30px;
+    color:rgb(165, 67, 162);
+}
+.section-5{
+    height: 60vh;
+    padding: 50px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(72, 68, 68);
+}
+.section-5 .section-5-left{
+    width: 50%;
+}
+.section-5 .section-5-left img{
+    width: 100%;
+}
+.section-5 .section-5-right{
+    
+}
+.section-5 .section-5-right button{
+    margin-top: 20px;
+    background-color: green;
+    border-radius: 5px;
+    padding: 10px 15px;
+
+}
+.section-5 .section-5-right button:hover{
+    box-shadow: 0 0 5px 2px gray;
+    color:white;
+    cursor: pointer;
+}
+.section-5 .section-5-right h1{
+font-size: 50px;
+color: white;
+font-weight: bold;
+}
+.section-5 .section-5-right p{
+    margin-top: 20px;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.section-6 {
+    height: 30vh;
+    padding: 50px 30px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.section-6 h1{
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+.section-6 .subscribe{
+    margin: 20px;
+}
+.section-6 .subscribe input{
+    border: 1px solid black;
+    width: 300px;
+    padding:5px;
+}
+.section-6 .subscribe button{
+    padding: 10px 15px;
+    border-radius:4px;
+    background-origin: none;
+    background-color: orangered;
+    color:whitesmoke
+}
+.section-6 .social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+.section-6 .social-icons img{
+    width: 40px;
+    cursor: pointer;
+}
+.section-6 code{
+    margin-top:20px ;
+    position:relative;
+    color: rgb(143, 95, 6);
+}
+
+
+
+
+
+
